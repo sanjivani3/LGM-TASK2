@@ -1,0 +1,82 @@
+body {
+  background-image: linear-gradient(to right, #4122ee, #7bb8b8);
+}
+nav {
+  height: 20vh;
+  width: 100%;
+  color: rgb(250, 0, 0);
+}
+.navitems {
+  display:block;
+  text-align: center;
+}
+.navitems h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  text-decoration: dashed;
+  color: rgb(2, 2, 3);
+  text-align: center;
+}
+.navitems button {
+  width: 20%;
+  height: 15vh;
+  border-radius: 25px;
+  background-color: rgb(224, 159, 19);
+  font-family: cursive;
+  font-size: 25px;
+  margin: auto 0px;
+}
+.fetchbtn:hover {
+  background-color:#e551c2;
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-image: rgb(212, 41, 41)
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.name:hover {
+  color:rgb(135, 238, 1);
+}
+.email:hover{
+  color: rgb(35, 12, 245);
+}
+.avatar {
+  border-radius: 20%;
+}
+.profile_cont {
+  border-radius: 20%;
+  background-image: radial-gradient(rgb(0, 0, 0), #f3edf2);
+  margin: 5px;
+  padding: 10px;
+  width: 40%;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 0.9;
+  margin-top: 8vh;
+  margin-bottom: 8vh ;
+}
+.profile_cont:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: large;
+  color: #265824;
+  font-weight: 400;
+  font-family: serif;
+  text-decoration: underline;
+}
+.button {
+  font-size: large;
+  font-style: italic;
+}
